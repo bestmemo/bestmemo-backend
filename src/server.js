@@ -107,6 +107,10 @@ const server = fastify({
   logger: true
 })
 
+server.register(require('fastify-static'), {
+  root: path.join(__dirname, '..', 'dict', 'static')
+})
+
 server.get('/current', async (request, reply) => {
   reply.code(200).send({ currentCard, summary: sr.summary() })
 })
