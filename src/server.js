@@ -49,6 +49,11 @@ sr.addReviews(...storage.reviews.map(review => {
   return review
 }))
 
+// initialize the server
+const server = fastify({
+  logger: true
+})
+
 // dictionary API
 const mdict = new Mdict(path.join(__dirname, '..', 'dict', '牛津高阶8简体.mdx'));
 
@@ -103,9 +108,6 @@ process.on('SIGINT', () => {
 })
 
 // configure the server
-const server = fastify({
-  logger: true
-})
 
 server.register(require('fastify-static'), {
   root: path.join(__dirname, '..', 'dict', 'static')
