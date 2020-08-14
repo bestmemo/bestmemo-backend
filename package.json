@@ -13,7 +13,7 @@
     "fastify": "^3.2.0",
     "fastify-static": "^3.2.0",
     "js-mdict": "^4.0.5",
-    "lodash": "^4.17.19",
+    "lodash": "^4.17.20",
     "moment": "^2.27.0",
     "pluralize": "^8.0.0",
     "prompts": "^2.3.2",
