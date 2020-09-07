@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "dolphinsr": "^0.0.2",
-    "fastify": "^3.2.1",
+    "fastify": "^3.3.0",
     "fastify-static": "^3.2.0",
     "js-mdict": "^4.0.5",
     "lodash": "^4.17.20",
