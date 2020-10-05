@@ -426,19 +426,19 @@ fastify-error@^0.2.0:
   resolved "https://registry.yarnpkg.com/fastify-error/-/fastify-error-0.2.0.tgz#9a1c28d4f42b6259e7a549671c8e5e2d85660634"
   integrity sha512-zabxsBatj59ROG0fhP36zNdc5Q1/eYeH9oSF9uvfrurZf8/JKfrJbMcIGrLpLWcf89rS6L91RHWm20A/X85hcA==
 
-fastify-plugin@^2.0.0:
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/fastify-plugin/-/fastify-plugin-2.3.0.tgz#ef09432fd099e7cbd45f9612efc22da1da213fea"
-  integrity sha512-FOfgK3ORSXMl9AbXmkADH2gZ4qiegcYuJfDxKNlL0jQKLndbXYoBjifinYkSi2mTewDwu/LMlAGe4PVyhLpSXA==
+fastify-plugin@^2.3.4:
+  version "2.3.4"
+  resolved "https://registry.yarnpkg.com/fastify-plugin/-/fastify-plugin-2.3.4.tgz#b17abdc36a97877d88101fb86ad8a07f2c07de87"
+  integrity sha512-I+Oaj6p9oiRozbam30sh39BiuiqBda7yK2nmSPVwDCfIBlKnT8YB3MY+pRQc2Fcd07bf6KPGklHJaQ2Qu81TYQ==
   dependencies:
     semver "^7.3.2"
 
-fastify-static@^3.2.0:
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/fastify-static/-/fastify-static-3.2.0.tgz#1c5f433274b310b1c82de6870cc8f4206cedb2bc"
-  integrity sha512-gaN4AX1CrlhwC3cApS1uDSZOkQSbhxt32MRCjlJL3dhG7pxAIf69fmSS1nrKtZe69b5HRn/KyEqkh9qzLN8GZw==
+fastify-static@^3.2.1:
+  version "3.2.1"
+  resolved "https://registry.yarnpkg.com/fastify-static/-/fastify-static-3.2.1.tgz#9dc699b45788f8ec861bc1205b3b745653d2c9ea"
+  integrity sha512-5l4pTKstyawqXW0dfTwhOS91WNiI9Dr6fwSHnBMv/lNIeGjH6SMKU+5Ypf9DrgLI3N75e7fkmrYhL5tT/BwQZA==
   dependencies:
-    fastify-plugin "^2.0.0"
+    fastify-plugin "^2.3.4"
     glob "^7.1.4"
     readable-stream "^3.4.0"
     send "^0.17.1"
